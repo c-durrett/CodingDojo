@@ -1,0 +1,30 @@
+* body {
+    background-color:dimgray;
+}
+
+.centered {
+    text-align: center;
+}
+
+h1 {
+    color:cyan;
+    background-color:dimgray;
+    font-size:50px;
+}
+
+.flag {
+    width: 500px;
+    height: 300px;
+    outline: 1px solid red;
+    background-color: white;
+}
+
+#dot {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin-top: 15%;
+    color: red;
+    background-color: red;
+    display: inline-block;
+}
