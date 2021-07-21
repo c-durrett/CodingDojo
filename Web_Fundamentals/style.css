@@ -1,6 +1,6 @@
 * body {
     font-family: sans-serif;
-    background-color:dimgray;
+    background-color: white;
     margin: 10px;
 }
 
@@ -47,4 +47,28 @@ h3 {
     color: red;
     background-color: red;
     display: inline-block;
+}
+
+.button {
+    margin: 20px;
+}
+
+.button1 {
+    font-weight: bolder;
+    padding: 5px;
+    width: 100px;
+    color: rgb(27, 161, 148);
+    background-color: lightgrey;
+    border: 2px solid rgb(27, 161, 148);
+    border-radius: 50%;
+}
+
+.button2 {
+    border-radius: 100%;
+    background-color:turquoise ;
+}
+
+.button3 {
+    color: white;
+    background-color: rgb(24, 67, 206);
 }
