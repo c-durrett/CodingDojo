@@ -50,7 +50,9 @@ h3 {
 }
 
 .button {
+    display: block;
     margin: 20px;
+    height: 40px;
 }
 
 .button1 {
@@ -60,7 +62,7 @@ h3 {
     color: rgb(27, 161, 148);
     background-color: lightgrey;
     border: 2px solid rgb(27, 161, 148);
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .button2 {
