@@ -1,15 +1,33 @@
 * body {
     background-color:dimgray;
+    margin: 10px;
 }
 
 .centered {
     text-align: center;
 }
 
+
+
 h1 {
-    color:cyan;
-    background-color:dimgray;
-    font-size:50px;
+    padding: 10px;
+    font-family:cursive;
+    color:white;
+    background-color:black;
+}
+
+h2 {
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+h3 {
+    padding: 10px;
+    text-align: right;
+    text-decoration: underline;
+    background-color: skyblue;
 }
 
 .flag {
