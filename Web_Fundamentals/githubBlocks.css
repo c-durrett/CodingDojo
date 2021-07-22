@@ -1,0 +1,45 @@
+
+.container {
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.firstBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:skyblue;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    border: 2px black;
+}
+
+.secondBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    border: 2px black;
+}
+
+.thirdBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    border: 2px black;
+}
+
+.img {
+    padding: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
