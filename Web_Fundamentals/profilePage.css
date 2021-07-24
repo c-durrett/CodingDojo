@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+nav {
+    color: white;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
