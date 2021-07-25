@@ -45,6 +45,12 @@ nav ul {
     background-color:teal;
 }
 
+h3 {
+    color: white;
+    background-color: dimgrey;
+    padding: 10px;
+}
+
 #rightColumn {
     flex: 1;
     min-height: 800px;
