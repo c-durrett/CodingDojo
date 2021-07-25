@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: cursive;
+}
+
+.border {
+    border: 4px solid lightgray;
 }
 
 .flexed {
@@ -26,6 +30,31 @@ nav ul {
     width: 70%;
 }
 
-#main {
-    
+#leftColumn {
+    flex: 2;
+    min-height: 400px;
+    margin: 10px;
+    padding: 20px;
 }
+
+#rightColumn {
+    flex: 1;
+    min-height: 400px;
+    padding: 1.5em;
+}
+
+.button {
+    background-color: dimgray;
+    color: white;
+    margin: 10px;
+    min-height: 20px;
+}
+
+.cR {
+    border-radius: 50%;
+}
+
+.yC {
+    border-radius: 50%;
+}
+
