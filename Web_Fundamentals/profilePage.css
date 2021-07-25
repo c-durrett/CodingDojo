@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
     font-family: cursive;
 }
@@ -25,6 +25,10 @@ nav ul {
     list-style: none;
 }
 
+#signOut {
+    background-color: teal;
+}
+
 .container {
     margin: 0 auto;
     width: 70%;
@@ -32,21 +36,24 @@ nav ul {
 
 #leftColumn {
     flex: 2;
-    min-height: 400px;
+    min-height: 800px;
     margin: 10px;
     padding: 20px;
 }
 
+#blueBar {
+    background-color:teal;
+}
+
 #rightColumn {
     flex: 1;
-    min-height: 400px;
+    min-height: 800px;
     padding: 1.5em;
 }
 
 .button {
     background-color: dimgray;
     color: white;
-    margin: 10px;
     min-height: 20px;
 }
 
@@ -58,3 +65,15 @@ nav ul {
     border-radius: 50%;
 }
 
+.userCircle {
+    height: 100px;
+}
+
+img {
+    height: 40px;
+}
+
+ul {
+    padding: 10px;
+    list-style: none;
+}

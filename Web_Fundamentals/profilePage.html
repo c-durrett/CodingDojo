@@ -18,7 +18,7 @@
                     <li>Find Connections</li>
                 </ul>
             </div>
-            <button>Sign Out</button>
+            <button id="signOut">Sign Out</button>
         </div>
     </nav>
 <!-- Main Container Code Below -->
@@ -26,7 +26,9 @@
 <!-- Left Column Code Below -->
         <div id="leftColumn">
             <div id="topLeft" class="border">
-                <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle">
+                <div id="blueBar">
+                    <img class="userCircle" src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle">
+                </div>
                 <h1>Jane Doe</h1>
                 <img src="../Web_Fundamentals/graphics/map-marker.png" alt="map-marker">Seattle
                 <p>Developer | Engineer | Problem  Solver</p>
@@ -48,15 +50,19 @@
                 <div class="button">
                     <button class="cR" type="button">2</button> Connection Requests
                 </div>
-                <div>
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Todd E
-                    <img src="../Web_Fundamentals/graphics/accept-circle.png" alt="accept-circle">
-                    <img src="../Web_Fundamentals/graphics/close-circle.png" alt="close-circle">
+                <div class="flexed">
+                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle">Todd E
+                    <div>
+                        <img src="../Web_Fundamentals/graphics/accept-circle.png" alt="accept-circle">
+                        <img src="../Web_Fundamentals/graphics/close-circle.png" alt="close-circle">
+                    </div>
                 </div>
-                <div>
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Phil K
-                    <img src="../Web_Fundamentals/graphics/accept-circle.png" alt="accept-circle">
-                    <img src="../Web_Fundamentals/graphics/close-circle.png" alt="close-circle">
+                <div class="flexed">
+                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle">Phil K
+                    <div>
+                        <img src="../Web_Fundamentals/graphics/accept-circle.png" alt="accept-circle">
+                        <img src="../Web_Fundamentals/graphics/close-circle.png" alt="close-circle">
+                    </div>
                 </div>
             </div>
             <div id="bottomRight" class="border">
@@ -64,10 +70,12 @@
                     <button class="yC" type="button">500+</button> Your Connections
                 </div>
                 <div>
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Adrien D
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Anne J
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Alayne T
-                    <img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Arry Y
+                    <ul>
+                        <li><img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Adrien D</li>
+                        <li><img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Anne J</li>
+                        <li><img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Alayne T</li>
+                        <li><img src="../Web_Fundamentals/graphics/user-circle.png" alt="user-circle"> Arry Y</li>
+                    </ul>
                 </div>
                 <div class="border">
                     <a href="view_more.html">View More</a>
