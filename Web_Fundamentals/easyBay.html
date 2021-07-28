@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="easyBay.css">
+</head>
+<body>
+    <nav>
+        <img class="leaf" src="../Web_Fundamentals/graphics/leaf.png" alt="leaf"> 
+        <h1>EasyBay</h1>
+        <input class="search" type="text" placeholder="Search for anything">
+        <p>Sign In</p>
+        <button onclick="JavaScript:alert('Your cart is empty!')">
+            <img class="cart" src="../Web_Fundamentals/graphics/cart-dark.png" alt="Shopping Cart">
+        </button>
+    </nav>
+
+    <div id="container">
+        <div id="topBar">
+            <ul>
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Aristaloe</li>
+                <li>More...</li>
+            </ul>
+        </div>
+
+        <h1>Your Source for Serious Succulent Specialties</h1>
+
+        <div id="main">
+            <div class="flexed" id="leftmain">
+                <div class="discover">
+                    <h3>Discover succ-<br>ulent varieties one pot or rack at a time!</h3>
+                    <h3>Discover <img src="../Web_Fundamentals/graphics/arrow-light.png" alt="arrow"></h3>
+                </div>
+                <img onmouseover="imageHover(this)" onmouseout="imageHoverOut(this)" src="../Web_Fundamentals/graphics/succulents-1.jpg" alt="succulents 1">
+            </div>
+            <div id="rightmain">
+                <img src="../Web_Fundamentals/graphics/aloe-m.jpg" alt="aloe">
+                <div class="empty"></div>
+                <div class="soothing">
+                    <h3>Soothing aloe <img src="../Web_Fundamentals/graphics/arrow-light.png" alt="arrow"></h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottomBar">
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/aeonium-s.jpg" alt="Aeonium">
+                <h6>Aeonium</h6>
+            </div>
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/aloe-s.jpg" alt="Aloe">
+                <h6>Aloe</h6>
+            </div>
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/cactus-s.jpg" alt="Cactus">
+                <h6>Cactus</h6>
+            </div>
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/echeveria-s.jpg" alt="Echeveria">
+                <h6>Echeveria</h6>
+            </div>
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/sedum-s.jpg" alt="Sedum">
+                <h6>Sedum</h6>
+            </div>
+            <div class="flowerBox">
+                <img class="flowerCircle" src="../Web_Fundamentals/graphics/sempervivum-s.jpg" alt="Sempervivum">
+                <h6>Sempervivum</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexed" id="cookiesBox"> 
+        <img src="../Web_Fundamentals/graphics/alert-dark.png" alt="alert dark">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in out <a href="cookie_policy.html">cookie policy</a>.</p>
+        <button onclick="cookiesHide()" class="btn">I Accept</button>
+    </div>
+    <script src="easyBay.js"></script>
+</body>
+</html>
