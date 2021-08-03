@@ -37,7 +37,3 @@ bryce.make_deposit(1000).make_withdrawal(200).make_withdrawal(200).make_withdraw
 
 sean.transfer_money(100, bryce)
 
-class BankAccount:
-
-    def __init__(self, int_rate, balance):
-        
