@@ -24,7 +24,7 @@ def vals_greaterthan_second(list):
     if len(list) < 2:
         return False
     output = []
-    for num in range(0, len(list)):
+    for num in range(len(list)):
         if list[num] > list[1]:
             output.append(list[num])
     print(len(output))
