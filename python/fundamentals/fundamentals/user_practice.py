@@ -36,3 +36,8 @@ monty.make_deposit(200).make_deposit(300).make_withdrawal(50).make_withdrawal(50
 bryce.make_deposit(1000).make_withdrawal(200).make_withdrawal(200).make_withdrawal(600).display_user_balance()
 
 sean.transfer_money(100, bryce)
+
+class BankAccount:
+
+    def __init__(self, int_rate, balance):
+        
