@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 app.route('/')
 def welcome():
-    return ("Welcome")
+    return 'Welcome'
 
 @app.route('/play')
 def level_one():
