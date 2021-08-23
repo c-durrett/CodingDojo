@@ -14,13 +14,19 @@
             <th>Full Name</th>
             <th>Email</th>
             <th>Created At</th>
+            <th>Actions</th>
         </thead>
         {%for user in users%}
         <tr>
             <td>{{user.id}}</td>
             <td>{{user.first_name}} {{user.last_name}}</td>
             <td>{{user.email}}</td>
-            <td>{{user.created_at}}</td>
+            <td>{{user.created_at.strftime("%b %d %Y")}}</td>
+            <td>
+                <a href="/user/show/{{user.id}}" class="btn btn-primary">Show</a>
+                <a href="/user/edit/{{user.id}}" class="btn btn-primary">Edit</a>
+                <a href="/user/delete/{{user.id}}" class="btn btn-primary">Delete</a>
+            </td>
         </tr>
         {%endfor%}
     </table>
