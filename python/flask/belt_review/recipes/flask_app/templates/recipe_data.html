@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+</head>
+<body>
+    <h1>{{recipe.name}}</h1>
+    <table>
+        <p>Description: {{recipe.description}}</p>
+        <p>Under 30 Minutes, Y or N: {{recipe.under_thirty_minutes}}</p>
+        <p>Instructions: {{recipe.instructions}}</p>
+        <p>Date Made: {{recipe.date}}</p>
+        {% if recipe.user.id == session['user_id'] %}<a href="/recipes/{{recipe.id}}/edit" class="btn btn-primary">edit</a><br>
+        <a href="/recipes/{{recipe.id}}/delete" class="btn btn-primary">delete</a>{% endif %}
+    </table><br>
+
+    <a href="/dashboard">Dashboard</a>
+    <a href="/users/logout">Logout</a>
+</body>
+</html>
