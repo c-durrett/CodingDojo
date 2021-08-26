@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealz</title>
+</head>
+<body>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/users/logout">Logout</a>
+    <table>
+        <h2>$ {{car.price}}</h2>
+        <h3>Model: {{car.model}}</h3>
+        <h3>Make: {{car.make}}</h3>
+        <h3>Year: {{car.year}}</h3>
+        <h4>Description: {{car.description}}</h4>
+        <p>Seller: {{car.user.first_name}} {{car.user.last_name}}</p>
+    </table>
+    <a href="/cars/{{car.id}}/delete">Purchase</a>
+</body>
+</html>

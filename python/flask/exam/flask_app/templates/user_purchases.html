@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dealz</title>
+</head>
+<body>
+    <h1>{{session['user_first_name']}}'s Purchases <a href="/dashboard">Dashboard</a> <a href="/users/logout">Logout</a></h1>
+    <table>
+        <thead>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </thead>
+        <tbody>
+            {% for car in cars %}
+            <tr>
+                {% if car.user.id == session['user_id'] %}
+                <td>{{car.make}}</td>
+                <td>{{car.model}}</td>
+                <td>{{car.year}}</td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
